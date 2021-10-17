@@ -1,8 +1,0 @@
-stepdefinition/ProfilePageStepDefinition.java
- stepdefinition.ProfilePageStepDefinition
-stepdefinition/Hooks.java
- stepdefinition.Hooks
-stepdefinition/LoginPageStepDefinition.java
- stepdefinition.LoginPageStepDefinition
-stepdefinition/MainPageStepDefinition.java
- stepdefinition.MainPageStepDefinition
