@@ -11,7 +11,7 @@ public class LoginPageStepDefinition {
     private LoginPage loginPage;
 
     /*
-    * PageObjects would be added to step definition classes with the help if Cucumber Picocontainer
+    * PageObjects would be added to step definition classes with the help of Cucumber Picocontainer
     * */
     public LoginPageStepDefinition(LoginPage loginPage) {
         this.loginPage = loginPage;

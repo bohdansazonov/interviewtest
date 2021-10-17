@@ -32,7 +32,8 @@ public class MainPageStepDefinition {
 
     @When("unauthorized user opens secured link")
     public void unauthorizedUserOpensSecuredLink() {
-        String MESSAGE_THREAD_LINK = "https://www.linkedin.com/messaging/thread/2-YjU1NjBjNDEtNDFhOC00MDg0LTk3M2ItYzZiZDZjM2UxMDBlXzAxMg==/";
+        String MESSAGE_THREAD_LINK =
+                "https://www.linkedin.com/messaging/thread/2-YjU1NjBjNDEtNDFhOC00MDg0LTk3M2ItYzZiZDZjM2UxMDBlXzAxMg==/";
         mainPage.getWebDriver().navigate().to(MESSAGE_THREAD_LINK);
     }
 }
