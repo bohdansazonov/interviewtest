@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'io.cucumber:cucumber-java:6.2.2'
+    implementation "io.cucumber:cucumber-picocontainer:6.2.2"
+    implementation 'commons-io:commons-io:2.11.0'
+}
+
+test {
+    useJUnitPlatform()
+}
